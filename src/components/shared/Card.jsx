@@ -15,6 +15,7 @@ function Card({children, reverse}) {
     color: reverse ? '#fff' : '#000',
     }}>
     {children}
+    <h2>apagar depois</h2>
     </div>
   )
 }
